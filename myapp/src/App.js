@@ -17,7 +17,7 @@ function App() {
   return (
     <>
       <Sidebar/>
-      <main classname = "main">
+      <main className = "main">
         <Home/>
         <About/>
         <Education/>

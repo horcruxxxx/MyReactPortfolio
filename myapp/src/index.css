@@ -91,7 +91,7 @@ img{
 
 /*--=================================== REUSABLE CSS CLASSES ==========================================*/
 .container{
-  max-width:100px;
+  max-width:1080px;
   padding-left:15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -131,7 +131,7 @@ img{
   box-shadow: 0 0 1px rgb(0 0 0 /0%);
   border: 1px solid transparent;
   color: #fff;
-  display: inline;
+  display: inline-block;
   background-color: var(--first-color);
   font-weight: var(--font-bold);
 }
@@ -147,6 +147,6 @@ img{
 
 .btn:hover{
   animation: button-push 0.3s linear 1;
-}
+} 
 
 
