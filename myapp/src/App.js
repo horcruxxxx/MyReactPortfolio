@@ -12,6 +12,7 @@ import Resume from './components/Resume/resume';
 import Portfolio from './components/Portfolio/portfolio';
 import Experience from './components/Experience/experience';
 import Achievements from './components/Achievements/achievements';
+import Skills from "./components/Skills/skills";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <main className = "main">
         <Home/>
         <About/>
+        <Skills/>
         <Education/>
         <Experience/>
         <Projects/>
