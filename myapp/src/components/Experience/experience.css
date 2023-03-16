@@ -1,0 +1,29 @@
+.experience__container{
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+}
+
+.experience__item{
+    padding: 1.875rem 2.5rem;
+    background-color: var(--container-color);
+    text-align: center;
+    border-radius:var(--border-radius);
+    box-shadow:var(--shadow);
+}
+
+.experience__title{
+    margin: 1.25rem 0;
+    font-size:var(--h2-font-size);
+}
+
+.experience__description{
+    margin-bottom: 1rem;
+}
+
+.experience__item:hover{
+    /* padding:3.4rem 2.5rem;
+    position: relative;
+    z-index: 1;
+    box-shadow: black;
+    color: red; */
+}
