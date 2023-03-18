@@ -8,6 +8,7 @@
 
 .intro{
     max-width:540px;
+    z-index: 1;
     /* background-color: antiquewhite; */ 
     text-align: center;
 }
