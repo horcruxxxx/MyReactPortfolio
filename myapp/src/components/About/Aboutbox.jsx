@@ -20,7 +20,7 @@ export default function Aboutbox() {
             </div>
         </div>
 
-        <div className="about__box">
+        <div className="about__box" id="lastbox">
             <i className="about__icon icon-puzzle"></i>
             <div>
                 <h3 className="about__title">10+</h3>

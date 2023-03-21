@@ -22,7 +22,7 @@ export default function Projects() {
         <span className="project__item" onClick={changeitem} val="all">All</span>
         <span className="project__item" onClick={changeitem} val="Frontend">Frontend</span>
         <span className="project__item" onClick={changeitem} val="Backend">Backend</span>
-        <span className="project__item" onClick={changeitem} val="Full Stack">Full Stack</span>
+        <span className="project__item" onClick={changeitem} val="Full Stack">FullStack</span>
         <span className="project__item" onClick={changeitem} val="Others">Others</span>
       </div>
 

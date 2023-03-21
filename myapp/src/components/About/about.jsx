@@ -1,6 +1,7 @@
 import React from 'react';
 import "./about.css";
-import Mypic from "../../assets/avatar-2.svg";
+import Mypic from "../../assets/dsa_logo.webp";
+// import Mypic from "../../assets/avatar-2.svg";
 import Aboutbox from './Aboutbox';
 
 export default function About() {
@@ -8,7 +9,7 @@ export default function About() {
     <section className="about container section" id="about">
       <h2 className="section__title">About Me</h2>
       <div className="about__container grid">
-        <img src={Mypic} alt="" className="about__img"/>
+        <img src={Mypic} alt="" width="190" className="about__img"/>
 
         <div className="about__data grid">
           <div className="about__info">

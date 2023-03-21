@@ -66,3 +66,23 @@
 .skills__card:nth-child(4) .skills__description{
     color: var(--text-color);
 }
+
+@media screen and (max-width:1024px) {
+    .skills__container{
+        grid-template-columns: repeat(2,330px);
+        justify-content: center;
+        row-gap: 1.875rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .skills__container{
+        grid-template-columns: 310px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .skills__container{
+        grid-template-columns: 1fr;
+    }
+}

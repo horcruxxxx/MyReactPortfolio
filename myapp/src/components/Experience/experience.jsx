@@ -1,6 +1,7 @@
 import React from 'react'
 import "./experience.css"
-import image1 from "../../assets/price-1.svg";
+import twowaits from "../../assets/twowaits_logo.png";
+import byte from "../../assets/byte_logo.png";
 import image2 from "../../assets/price-2.svg";
 import image3 from "../../assets/price-3.svg";
 
@@ -12,7 +13,7 @@ export default function Experience() {
       <div className="experience__container grid">
         
         <div className="experience__item">
-          <img src={image1} alt="" className="experience__img"></img>
+          <img src={twowaits} alt="" width="80" className="experience__img"></img>
           <h3 className="experience__title">DSA Scholar Intern</h3>
           <ul>
             <li className="experience__description">• Reviewed technical content, codes, and articles</li>
@@ -22,7 +23,7 @@ export default function Experience() {
         </div>
 
         <div className="experience__item">
-          <img src={image2} alt="" className="experience__img"></img>
+          <img src={byte} alt="" width="80" className="experience__img"></img>
           <h3 className="experience__title">Tech Lead</h3>
           <ul>
             <li className="experience__description">• Manages workloads to ensure even distribution of responsibilities.</li>

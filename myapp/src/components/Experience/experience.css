@@ -27,3 +27,24 @@
     box-shadow: black;
     color: red; */
 }
+
+@media screen and (max-width:1024px) {
+    .experience__container{
+        grid-template-columns: repeat(2,330px);
+        justify-content: center;
+        gap: 1.875rem;
+    }
+    .experience__item{
+        padding:1.875rem 2.5rem;
+    }
+}
+@media screen and (max-width:786px) {
+    .experience__container{
+        grid-template-columns: 310px;
+    }
+}
+@media screen and (max-width:350px) {
+    .experience__container{
+        grid-template-columns: 1fr;
+    }
+}
