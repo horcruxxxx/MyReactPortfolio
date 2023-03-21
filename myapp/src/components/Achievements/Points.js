@@ -6,58 +6,58 @@ const Points = [
     {
       id: 1,
       image: Image1,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "ACM ICPC",
+      subtitle: "",
       comment:
-        "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+        "Secured a rank of 763th/4992 in Preliminary Round",
     },
     {
       id: 2,
       image: Image2,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "Codechef",
+      subtitle: "",
       comment:
-        "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+        "Secured 3 Star rating (Max - 1794 )",
     },
     {
       id: 3,
       image: Image2,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "Codechef",
+      subtitle: "",
       comment:
-        "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+        "Secured Global Rank-252 in Codechef Starters Div2",
     },
     {
       id: 4,
       image: Image1,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "CodeForces",
+      subtitle: "",
       comment:
-        "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+        "Achieved Pupil (Max - 1392)",
     },
     {
       id: 5,
       image: Image1,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "Leetcode",
+      subtitle: "",
       comment:
-        "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+        "Among the Top 9.22% of users(Max-1754)",
     },
     {
       id: 6,
       image: Image2,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "Google Kickstart",
+      subtitle: "",
       comment:
-        "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+        "Secured a Rank of 2045th/10k+ in Round B 2022",
     },
     {
       id: 7,
       image: Image1,
-      title: "John Doe",
-      subtitle: "Product designer at Dribble",
+      title: "DSA/CP",
+      subtitle: "",
       comment:
-        "I enjoy working with the theme and learn so much. You       guys make the process fun and interesting. Good luck! 👍",
+        "Solved over 600+ questions over different platforms.",
     },
   ];
 

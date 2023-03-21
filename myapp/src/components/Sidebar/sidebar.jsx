@@ -13,7 +13,7 @@ function Sidebar(){
                 <div className="nav__menu">
                     <ul className="nav__list">
                         <li className="nav__item">
-                            <a href="#home" className="nav__link">
+                            <a href="#" className="nav__link">
                                 <i className="icon-home"></i>
                             </a>
                         </li>
@@ -23,13 +23,18 @@ function Sidebar(){
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="#Skills" className="nav__link">
+                            <a href="#skills" className="nav__link">
                                 <i className="icon-briefcase"></i>
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="education" className="nav__link">
+                            <a href="#education" className="nav__link">
                                 <i className="icon-graduation"></i>
+                            </a>
+                        </li>
+                        <li className="nav__item">
+                            <a href="#experience" className="nav__link">
+                                <i className="icon-note"></i>
                             </a>
                         </li>
                         <li className="nav__item">
@@ -38,8 +43,8 @@ function Sidebar(){
                             </a>
                         </li>
                         <li className="nav__item">
-                            <a href="" className="nav__link">
-                                <i className="icon-note"></i>
+                            <a href="#achievements" className="nav__link">
+                                <i className="icon-badge "></i>
                             </a>
                         </li>
                         <li className="nav__item">
@@ -47,16 +52,11 @@ function Sidebar(){
                                 <i className="icon-bubble"></i>
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#experience" className="nav__link">
-                                <i className="icon-badge "></i>
-                            </a>
-                        </li>
-                        <li className="nav__item">
+                        {/* <li className="nav__item">
                             <a href="#achievements" className="nav__link">
                                 <i className="icon-graph"></i>
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </nav>

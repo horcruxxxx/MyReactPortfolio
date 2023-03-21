@@ -12,9 +12,9 @@ export default function About() {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Rachit Saxena.I am well-versed in MERN Stack development (MongoDB, Express.js, React.js, Node.js) along with that I have Strong Data structure and algorithms, and Competitive Programming skills.<br/><br/>
-            I am passionate and curious about Programming. I have Built many full-stack Projects with the same technology as well. </p>
-            <a href="" className="btn">Download CV</a>
+            <p className="about__description">I am Rachit Saxena.I am well-versed in MERN Stack development (MongoDB, Express.js, React.js, Node.js) along with that I am Strong at Data structure and algorithms, and Competitive Programming.<br/><br/>
+            I am passionate and curious about Programming. I have Built many full-stack Projects with the same technologies as well. </p>
+            <a href="https://drive.google.com/file/d/13IcDAaeUiKLv_yGReB2Z2kdjXgcSs4WI/view?usp=drivesdk" className="btn">Download CV</a>
           </div>
 
           {/* SKILLS */}

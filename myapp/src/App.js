@@ -8,8 +8,6 @@ import Sidebar from './components/Sidebar/sidebar';
 import Home from './components/Home/home';
 import About from './components/About/about';
 import Education from './components/Education/education';
-import Resume from './components/Resume/resume';
-import Portfolio from './components/Portfolio/portfolio';
 import Experience from './components/Experience/experience';
 import Achievements from './components/Achievements/achievements';
 import Skills from "./components/Skills/skills";
@@ -26,8 +24,6 @@ function App() {
         <Experience/>
         <Projects/>
         <Achievements/>
-        <Portfolio/>
-        <Resume/>
         <Contact/>
       </main>
     </>

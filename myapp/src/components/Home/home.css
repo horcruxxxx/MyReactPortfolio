@@ -31,8 +31,11 @@
     margin:1.5rem 0;
 }
 .home__social-links{
+    /* margin-left: 1rem; */
+    /* margin-right: 1rem; */
+    margin: auto auto;
     color:var(--title-color);
-    font-size:1.3rem;
+    font-size:1.6rem;
     transition: .3s;
 }
 .home__social-links :hover{

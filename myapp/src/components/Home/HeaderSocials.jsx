@@ -17,14 +17,6 @@ export default function HeaderSocials() {
         <a href = {CodingProfiles_url} className="home__social-links" target="_blank">
             <i class="fa-solid fa-code"></i>
         </a>
-        <a href = {CodingProfiles_url} className="home__social-links" target="_blank">
-            <i class="fa-solid fa-code"></i>
-        </a>
-        <a href = {CodingProfiles_url} className="home__social-links" target="_blank">
-            <i class="fa-solid fa-code"></i>
-        </a>
-        
-        
 
     </div>
   )

@@ -1,16 +1,18 @@
 import React from 'react';
 import "./achievements.css"
 import Points from './Points';
+
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 
 export default function Achievements() {
   return (
-    <section className="achievements container">
+    <section className="achievements container" id="achievements">
       <h2 className="section__title">Achievements</h2>
       <Swiper className="achievements__container grid" 
       modules={[Pagination]}
