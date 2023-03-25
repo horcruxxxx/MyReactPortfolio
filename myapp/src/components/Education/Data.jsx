@@ -27,7 +27,7 @@ const Data = [
       id: 4,
       category: "Intermediate",
       icon: "icon-badge",
-      year: " Percenntage - 75.4%",
+      year: " Percentage - 75.4%",
       title: "Specialization ",
       desc: "Science",
     },

@@ -20,12 +20,10 @@
     margin-bottom: 1rem;
 }
 
-.experience__item:hover{
-    /* padding:3.4rem 2.5rem;
-    position: relative;
-    z-index: 1;
-    box-shadow: black;
-    color: red; */
+.subtitle{
+    color:#8b88b1;
+    margin-top: -20px;
+    padding-bottom: 20px;
 }
 
 @media screen and (max-width:1024px) {

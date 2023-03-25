@@ -1,22 +1,9 @@
-import adrixus from "../../assets/adrixus_login2.png";
-import blog from "../../assets/home_page3.png";
-import keeper from "../../assets/keeper4.png";
-import secret from "../../assets/secrets2.png"
-import cloak from "../../assets/cloak2.png";
-import react_comp from "../../assets/react_comp2.png";
-
-import project2 from "../../assets/project2.jpg";
 import project1 from "../../assets/project1.jpg";
 import project3 from "../../assets/project3.jpg";
 import project4 from "../../assets/project4.jpg";
-import project5 from "../../assets/project5.jpg";
 import project6 from "../../assets/project6.jpg";
 
-// import Work1 from "../../assets/work-1.svg";
-import Work2 from "../../assets/work-2.svg";
 import Work3 from "../../assets/work-3.svg";
-import Work4 from "../../assets/work-4.svg";
-import Work5 from "../../assets/work-5.svg";
 import Work6 from "../../assets/work-6.svg";
 
 const Menu = [
@@ -47,7 +34,7 @@ const Menu = [
       url:"https://github.com/horcruxxxx/Secrests",
       image: project4,
       title: "Secrets | Node.js + Express.js + Oauth + Passport.js",
-      category: "Bakend",
+      category: "Backend",
     },
     ,
     {

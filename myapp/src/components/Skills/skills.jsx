@@ -4,9 +4,6 @@ import framework from "../../assets/react_logo3.png";
 import other from "../../assets/others_logo.png";
 import language from "../../assets/language_logo.png";
 import database from "../../assets/database_logo3.png";
-import Image1 from "../../assets/service-1.svg";
-// import Image2 from "../../assets/service-2.svg";
-// import Image3 from "../../assets/service-3.svg";
 
 export default function skills() {
   return (
@@ -44,7 +41,7 @@ export default function skills() {
               <h3 className="skills__title">Database</h3>
               <ul type="disc">
                 <li className="skills__description">• MongoDB</li>
-                <li className="skills__description">• MySQl </li>
+                <li className="skills__description">• MySQL </li>
               </ul>
             </div>
 
