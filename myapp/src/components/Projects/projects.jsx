@@ -28,17 +28,17 @@ export default function Projects() {
 
       <div className="project__container grid">
         {items.map((element) => {
-          const{id,image,title,category} = element;
+          const{id,url,image,title,category} = element;
           return(
             <div className="project__card" key = {id}>
               <div className="project__thumbnail">
-                <img src={image} alt="" className="project__img"/>
+                <img src={image} alt=""  className="project__img" />
                 <div className="project__mask"></div>
               </div>
 
               <span className="project__category">{category}</span>
               <h3 className="project__title">{title}</h3>
-              <a href = "#" className="project__button">
+              <a href = {url} className="project__button">
                 <i className="icon-link project__button-icon"></i>
               </a>
             </div>

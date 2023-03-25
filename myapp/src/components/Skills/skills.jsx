@@ -1,8 +1,12 @@
 import React from 'react'
 import "./skills.css"
+import framework from "../../assets/react_logo3.png";
+import other from "../../assets/others_logo.png";
+import language from "../../assets/language_logo.png";
+import database from "../../assets/database_logo3.png";
 import Image1 from "../../assets/service-1.svg";
-import Image2 from "../../assets/service-2.svg";
-import Image3 from "../../assets/service-3.svg";
+// import Image2 from "../../assets/service-2.svg";
+// import Image3 from "../../assets/service-3.svg";
 
 export default function skills() {
   return (
@@ -12,7 +16,7 @@ export default function skills() {
       <div className="skills__container grid">
       
             <div className="skills__card">
-              <img src = {Image1} alt = "" className="skills__img"/> 
+              <img src = {framework} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Frameworks/Libraries</h3>
               <ul type="disc">
                 <li className="skills__description">• React js</li>
@@ -25,7 +29,7 @@ export default function skills() {
             </div>
 
             <div className="skills__card">
-              <img src = {Image2} alt = "" className="skills__img"/> 
+              <img src = {language} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Languages</h3>
               <ul type="disc">
                 <li className="skills__description">• Javascript</li>
@@ -36,7 +40,7 @@ export default function skills() {
             </div>
 
             <div className="skills__card">
-              <img src = {Image3} alt = "" className="skills__img"/> 
+              <img src = {database} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Database</h3>
               <ul type="disc">
                 <li className="skills__description">• MongoDB</li>
@@ -45,7 +49,7 @@ export default function skills() {
             </div>
 
             <div className="skills__card">
-              <img src = {Image1} alt = "" className="skills__img"/> 
+              <img src = {other} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Others</h3>
               <ul type="disc">
                 <li className="skills__description">• Rest API's</li>
