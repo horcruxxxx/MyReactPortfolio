@@ -23,7 +23,7 @@ const Menu = [
     },
     {
       id: 3,
-      url:"https://github.com/horcruxxxx/The-EJS-Express",
+      url:"https://github.com/horcruxxxx/Personal-blog-Website-Using-EJS",
       image: project3,
       title: "Personal Blog WebApp | Node.js + Express.js + EJS ",
       category: "Backend",
