@@ -23,7 +23,14 @@
 .subtitle{
     color:#8b88b1;
     margin-top: -20px;
+}
+
+.duration{
     padding-bottom: 20px;
+}
+
+.experience__img{
+    border-radius: var(--border-radius);
 }
 
 @media screen and (max-width:1024px) {

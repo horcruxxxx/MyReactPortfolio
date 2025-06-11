@@ -23,7 +23,7 @@ export default function Aboutbox() {
         <div className="about__box" id="lastbox">
             <i className="about__icon icon-puzzle"></i>
             <div>
-                <h3 className="about__title">10+</h3>
+                <h3 className="about__title">25+</h3>
                 <span className="about__subtitle">Projects Completed</span>
             </div>
         </div>

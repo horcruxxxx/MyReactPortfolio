@@ -67,7 +67,12 @@
 .skills__description:nth-child(6) {
     animation-delay: 1s;
 }
-  
+.skills__description:nth-child(7) {
+    animation-delay: 1.2s;
+}
+.skills__description:nth-child(8) {
+    animation-delay: 1.4s;
+}  
 
 .skills__description{
     color: black; 

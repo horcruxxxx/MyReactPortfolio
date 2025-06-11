@@ -65,8 +65,13 @@
 }
 
 .reactjs{
-    width:90%;
+    width:80%;
     background-color: rgb(225,209,92);
+}
+
+.angular{
+    width:90%;
+    background-color: rgb(108,108,299);
 }
 
 /****************** SKILLS SECTION  ********************/
@@ -75,17 +80,17 @@
     background-color: rgb(225,76,96);
 }
 
-.redux{
+.dotnet{
     width:60%;
     background-color: rgb(108,108,299);
 }
 
 .cpp{
-    width:70%;
+    width:80%;
     background-color: rgb(225,209,92);
 }
 
-.dsa{
+.typescript{
     width:80%;
     background-color: rgb(225,76,96);
 }

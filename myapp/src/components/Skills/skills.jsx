@@ -16,10 +16,12 @@ export default function skills() {
               <img src = {framework} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Frameworks/Libraries</h3>
               <ul type="disc">
+                <li className="skills__description">• Angular</li>
+                <li className="skills__description">• Angular Material</li>
+                <li className="skills__description">• RxJS + NgRx</li>
                 <li className="skills__description">• React js</li>
-                <li className="skills__description">• Redux </li>
                 <li className="skills__description">• Node js</li>
-                <li className="skills__description">• Express js</li>
+                <li className="skills__description">• .NET Core</li>
                 <li className="skills__description">• jQuery</li>
                 <li className="skills__description">• Bootstrap</li>
               </ul>
@@ -29,10 +31,11 @@ export default function skills() {
               <img src = {language} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Languages</h3>
               <ul type="disc">
+                <li className="skills__description">• TypeScript</li>
                 <li className="skills__description">• Javascript</li>
-                <li className="skills__description">• HTML/CSS</li>
                 <li className="skills__description">• C++ </li>
                 <li className="skills__description">• Python</li>
+                <li className="skills__description">• C# </li>
               </ul>
             </div>
 
@@ -50,6 +53,7 @@ export default function skills() {
               <h3 className="skills__title">Others</h3>
               <ul type="disc">
                 <li className="skills__description">• Rest API's</li>
+                <li className="skills__description">• System Design</li>
                 <li className="skills__description">• Competitive Programming </li>
                 <li className="skills__description">• Data Structures</li>
                 <li className="skills__description">• Git/Github</li>

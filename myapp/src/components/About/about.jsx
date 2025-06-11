@@ -13,18 +13,36 @@ export default function About() {
 
         <div className="about__data grid">
           <div className="about__info">
-            <p className="about__description">I am Rachit Saxena. I am Well-versed in MERN Stack Development (MongoDB, Express.js, React.js, Node.js) along with that I am Strong at Data Structure & Algorithms, and Competitive Programming.<br/><br/>
-            I am Passionate and Curious about Programming. I have Built many Full-stack Projects with the same technologies as well. </p>
+            <p className="about__description">
+              I am Rachit Saxena, a Seasoned Software Developer with <strong>2+ Years of experience in modern web technologies</strong>,
+              which includes <strong>Angular, React</strong>, Node.js, and .NET . Over the years, I have honed my skills in 
+              System Design, Data Structures & Algorithms, and Competitive Programming, 
+              enabling me to build scalable and efficient solutions.
+              <br></br><br></br>
+              My passion for programming drives me to stay at the forefront of technology. 
+              I have successfully delivered numerous <strong>Full Stack</strong> projects, 
+              demonstrating strong problem solving abilities and a focus on delivering quality software.
+            </p>
             <a href="https://drive.google.com/file/d/1EjTYznqV8VOVY2UBccxiV2uHiQsuwSEc/view?usp=drivesdk" className="btn">Download CV</a>
           </div>
 
           {/* SKILLS */}
           <div className="about__skills grid">
 
+          <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Angular</h3>
+                <span className="skills__number ">90%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage angular"></span>
+              </div>
+            </div>
+
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">React.js</h3>
-                <span className="skills__number ">90%</span>
+                <span className="skills__number ">80%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage reactjs"></span>
@@ -43,18 +61,18 @@ export default function About() {
 
             <div className="skills__data">
               <div className="skills__titles">
-                <h3 className="skills__name">Redux</h3>
+                <h3 className="skills__name">.NET Core</h3>
                 <span className="skills__number ">60%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills__percentage redux"></span>
+                <span className="skills__percentage dotnet"></span>
               </div>
             </div>
 
             <div className="skills__data">
               <div className="skills__titles">
                 <h3 className="skills__name">C++</h3>
-                <span className="skills__number ">70%</span>
+                <span className="skills__number ">80%</span>
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage cpp"></span>
@@ -62,12 +80,12 @@ export default function About() {
             </div>
 
             <div className="skills__data">
-              <div className="skills__titles">
-                <h3 className="skills__name">DSA/CP</h3>
+              <div className="skills__titles"> 
+                <h3 className="skills__name">TypeScript</h3>
                 <span className="skills__number ">80%</span>
               </div>
               <div className="skills__bar">
-                <span className="skills__percentage dsa"></span>
+                <span className="skills__percentage typescript"></span>
               </div>
             </div>
 
